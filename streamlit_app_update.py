@@ -37,7 +37,7 @@ def calculate_signals(
             i_t = rate * (1 - contrast * lorentzian((nu_m - nu_0) / delta_nu))
         else:
             i_t = rate * (1 - contrast * gaussian((nu_m - nu_0) / delta_nu))
-        s_e[i] = (1.0 / np.pi) * np.trapz(i_t * np.sin(theta), theta)
+        s_e[i] = (1.0 / np.pi) * np.trapzoid(i_t * np.sin(theta), theta)
 
     return static_i, s_e
 
