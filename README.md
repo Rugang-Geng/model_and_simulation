@@ -22,21 +22,6 @@ You can interactively adjust:
 - Contrast `C`
 - Line shape: Lorentzian or Gaussian
 
-## Run Locally
-
-From the repository root:
-
-```bash
-streamlit run "notebooks/canberra/Rugang-dev/NV sensing and lock-in detection/streamlit_app.py"
-```
-
-Or from this folder:
-
-```bash
-cd "notebooks/canberra/Rugang-dev/NV sensing and lock-in detection"
-streamlit run streamlit_app.py
-```
-
 ## Python Dependencies
 
 The app uses:
@@ -47,31 +32,15 @@ The app uses:
 
 These are listed in the repository root `requirements.txt`.
 
-## Deploy To Streamlit Community Cloud
 
-1. Push the repository to GitHub.
-2. Make sure these files are committed:
-   - `requirements.txt`
-   - `notebooks/canberra/Rugang-dev/NV sensing and lock-in detection/streamlit_app.py`
-3. Sign in to Streamlit Community Cloud.
-4. Create a new app.
-5. Select the repository and branch.
-6. Set the app file path to:
-
-```text
-notebooks/canberra/Rugang-dev/NV sensing and lock-in detection/streamlit_app.py
-```
-
-7. Deploy the app.
-
-## Share In Confluence
+## Share it
 
 After deployment, copy the public app URL.
 
-You can share it in Confluence by:
+You can share it by:
 
 - pasting the URL as a link or Smart Link
-- embedding it with an iframe/embed macro if your Confluence instance allows that
+- embedding it with an iframe/embed macro if your instance allows that
 
 For public Streamlit apps, viewers usually do not need their own Streamlit account.
 
